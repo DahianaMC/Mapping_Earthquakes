@@ -29,8 +29,20 @@ let earthquakeData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/
 // Grabbing our GeoJSON data.
 d3.json(earthquakeData).then(function(data) {
   console.log(data);
+
 // Creating a GeoJSON layer with the retrieved data.
-L.geoJson(data).addTo(map);
+L.geoJSON(data, {
+  // We turn each feature into a marker on the map.
+  pointToLayer: function(feature, latlng) {
+    console.log(feature);
+    console.log(latlng);
+    return L.circleMarker(latlng, {
+      radius: feature.properties.mag,
+      color: "yellow"
+    });
+
+  }
+}).addTo(map);
 });
 
 var baseMaps = {
