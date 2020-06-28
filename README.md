@@ -10,5 +10,5 @@
 - We added the tectonic plates layer using GeoJSON and Leaflet, and we created an overlay for the Tectonic Plates to be able to add or remove the layer to the tilelayer map.
 
 ### Earthquake Data Visualization
-![Earthquake_Data_Visualization.PNG] https://github.com/DahianaMC/Mapping_Earthquakes/blob/master/Earthquake_Data_Visualization.PNG
+![Earthquake_Data_Visualization.PNG](https://github.com/DahianaMC/Mapping_Earthquakes/blob/master/Earthquake_Data_Visualization.PNG)
 
