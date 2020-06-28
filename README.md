@@ -10,6 +10,10 @@
 - Using Leaflet library we plotted the GeoJSON data in the tilelayers.
 - We added the tectonic plates layer using GeoJSON and Leaflet, and we created an overlay for the Tectonic Plates to be able to add or remove the layer to the tilelayer map.  We also created an overlay for the bindPopup information and markers, so the user will have the option to remove or add this information as well.
 
+### Files for Challenge
+- Folder Earthquakes_Challenge
+- Earthquake_Data_Visualization.png (Visualization)
+
 ### Earthquake Data Visualization
 ![Earthquake_Data_Visualization.PNG](https://github.com/DahianaMC/Mapping_Earthquakes/blob/master/Earthquake_Data_Visualization.PNG)
 
