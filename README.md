@@ -5,9 +5,10 @@
 ### Project Execution
 - Create an account in Mapbox map to be able to use the geographic maps to visualize the earthquake data in a map.
 - Using the Leaflet JavaScript Library we call the tilelayers from Mapbox map.  We also added the circle markers with magnitude as a circle size, and added the bindPopup with magnitude and location information.
+- We created a baseMaps to switch between the tilelayers.
 - GeoJSON data is a type of JavaScript Object Notation (JSON) data that is specifically designed to host geographical information.  We used GeoJSON data to get the earthquake data for the past 7 days.
 - Using Leaflet library we plotted the GeoJSON data in the tilelayers.
-- We added the tectonic plates layer using GeoJSON and Leaflet, and we created an overlay for the Tectonic Plates to be able to add or remove the layer to the tilelayer map.
+- We added the tectonic plates layer using GeoJSON and Leaflet, and we created an overlay for the Tectonic Plates to be able to add or remove the layer to the tilelayer map.  We also created an overlay for the bindPopup information and markers, so the user will have the option to remove or add this information as well.
 
 ### Earthquake Data Visualization
 ![Earthquake_Data_Visualization.PNG](https://github.com/DahianaMC/Mapping_Earthquakes/blob/master/Earthquake_Data_Visualization.PNG)
